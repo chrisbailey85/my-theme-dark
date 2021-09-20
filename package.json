@@ -1,0 +1,21 @@
+{
+    "name": "chris-theme",
+    "displayName": "chris theme",
+    "description": "chris-theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "chris-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/chris-theme-color-theme.json"
+            }
+        ]
+    }
+}
